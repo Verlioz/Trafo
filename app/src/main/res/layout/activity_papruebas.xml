@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lineark.rafael.trafo.PApruebas"
+    android:columnCount="1"
+    android:rowCount="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="73dp"
+        android:text="Selecione el tipo de prueba que desea realizar"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:layout_editor_absoluteY="3dp"
+        tools:layout_editor_absoluteX="57dp"
+        android:layout_gravity="center_horizontal"/>
+    tools:layout_editor_absoluteX="89dp"
+    tools:layout_editor_absoluteY="38dp" />
+
+    <Button
+        android:id="@+id/btnResAis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resistencia de Aislamiento"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteY="308dp"
+        tools:layout_editor_absoluteX="-6dp" />
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <Button
+        android:id="@+id/btnResOhms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resistencia Ohmica de devanados"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:layout_editor_absoluteY="400dp"
+        tools:layout_editor_absoluteX="-5dp" />
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <Button
+        android:id="@+id/btnFacPot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Factor en Potencia"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:layout_editor_absoluteY="142dp"
+        tools:layout_editor_absoluteX="3dp" />
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <Button
+        android:id="@+id/RelTrans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relacion de Transformación"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:layout_editor_absoluteY="219dp"
+        tools:layout_editor_absoluteX="-7dp" />
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+
+
+</GridLayout>

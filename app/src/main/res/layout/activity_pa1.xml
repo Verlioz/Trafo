@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none" >
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+                <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/GridLayout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="4"
+                    android:rowCount="4"
+                    android:orientation="horizontal"
+                    tools:context=".GridXMLActivity">
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Compañia"
+                            android:text="Nombre de la empresa"
+                            android:background="#ffffff"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <EditText
+                            android:id="@+id/CompañiaE"
+                            android:ems="10"
+                            android:inputType="text"
+                            />
+
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Localizacion"
+                            android:text="Localización"
+                            android:background="#ffffff"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <EditText
+                            android:id="@+id/LocalizacionE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="text"
+                            />
+
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Transformador"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Transformador"
+                            android:background="#ffffff"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <EditText
+                            android:id="@+id/TransformadorE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="text" />
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Marca"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Marca"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <EditText
+                            android:id="@+id/MarcaE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="text" />
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/KVAT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="kV Alta tension"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <EditText
+                            android:id="@+id/KVATE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/VBT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="kV B.T"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <EditText
+                            android:id="@+id/VBTE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Conexion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Conexión"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <EditText
+                            android:id="@+id/ConexionE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="text"/>
+
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Serie"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Num. Serie"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <EditText
+                            android:id="@+id/SerieE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="text"/>
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/CAT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Corriente AT"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <EditText
+                            android:id="@+id/CATE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/CBT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Corriente BT"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <EditText
+                            android:id="@+id/CBTE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Año_Fab"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha de Fabricacion"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/Año_FabE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="date" />
+
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Temp_amb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Temperatura ambiente"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/Temp_ambE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Potencia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Potencia"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/Potenciae"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Tipo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tipo de conexion"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/TipoE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Impedancia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Impedancia"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/Impedanciae"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Frecuencia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Frecuencia"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/FrecuenciaE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Altitud"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Altitud"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/AltitudE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Fecha"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha de Fabricacion"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/FechaE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Temp_Aceite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Temperatura del Aceite"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/Temp_AceiteE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Humedad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="% de Humedad"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/HumedadE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Lts_Aceite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lts. de Aceite"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/Lts_AceiteE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Fases"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fases"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/FasesE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Peso"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Peso Total"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/PesoE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+                        <TextView
+                            android:layout_gravity="fill"
+                            android:gravity="left"
+                            android:id="@+id/Tap_Operacion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tap. de Operación"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <EditText
+                            android:id="@+id/Tap_OperacionE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="numberDecimal" />
+
+
+                        <Button
+                            android:id="@+id/btnSig"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Siguiente"
+                            android:layout_gravity="left"
+                            android:onClick="onClick"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <com.jjoe64.graphview.GraphView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/graph" />
+
+                </GridLayout>
+
+        </HorizontalScrollView>
+
+</ScrollView>
+

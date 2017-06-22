@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Trafo</string>
+    <string name="Compania">empresa</string>
+    <string name="Localizacion">localizacion</string>
+    <string name="Transformador">t</string>
+    <string name="Marca">m</string>
+    <string name="KVAT">k</string>
+    <string name="VBT">v</string>
+    <string name="Conexion">con</string>
+    <string name="Serie">ser</string>
+    <string name="CAT">cat</string>
+    <string name="CBT">cb</string>
+    <string name="Ano_Fab">12</string>
+    <string name="Temp_Amb">1</string>
+    <string name="Potencia">2</string>
+    <string name="Tipo">3</string>
+    <string name="Impedancia">4</string>
+    <string name="Frecuencia">5</string>
+    <string name="Altitud">6</string>
+    <string name="Fecha">7</string>
+    <string name="Temp_Aceite">8</string>
+    <string name="Humedad">9</string>
+    <string name="Lts_Aceite">11</string>
+    <string name="Fases">12</string>
+    <string name="Peso">13</string>
+    <string name="Tap_Operacion">14</string>
+    <string name="textview">TextView</string>
+
+</resources>
